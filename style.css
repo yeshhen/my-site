@@ -9,3 +9,33 @@
   margin-bottom: 8px;
   break-inside: avoid;
 }
+
+.grid {
+  columns: 3;
+  gap: 20px;
+  max-width: 1020px;
+  margin: auto;
+}
+
+.card {
+  break-inside: avoid;
+  margin-bottom: 20px;
+  background-color: #ffffff;
+  border: 2px solid #333;
+  border-radius: 0px; 
+  padding: 20px;             
+  /* width: 300px; */
+  box-shadow: 4px 4px 0px #333
+}
+
+.yellow {
+  background-color: #fffde7;
+}
+
+.blue {
+  background-color: #e3f2fd;
+}
+
+.orange {
+  background-color: #f0e6d3;
+}
