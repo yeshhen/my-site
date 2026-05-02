@@ -11,17 +11,17 @@
 }
 
 .grid {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  max-width: 1020px;
-  margin: auto;
+  columns: 3;
+  column-gap: 20px;
+  width: 1000px;
+  margin-right: auto;
 }
 
 .card {
   box-sizing: border-box;
-  width: 320px;
-  margin: 0 20px 20px 0;
+  break-inside: avoid;
+  width: 100%;
+  margin: 0 0 20px 0;
   background-color: #ffffff;
   border: 2px solid #333;
   border-radius: 0px;

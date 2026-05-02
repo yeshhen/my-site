@@ -10,7 +10,7 @@
 
   <body>
 
-    <h1 style="text-align: center">Yash Patel</h1>
+    <h1 style="text-align: left">Yash Patel</h1>
 
     <div class="grid" id="card-grid">
 
@@ -21,56 +21,14 @@
         <h3>Contact</h3>
         <p>You can contact me at yash.r.g.patel@gmail.com</p>
       </div>
-
       <div class = "card blue">
         <h2>Future Plans</h2>
         <h3>University</h3>
         <p>I planned to attend Stanford University fall of 2026. My current major is Mathematics. It has always been my favorite subject, my only gripe is that I applied to most of my schools as an applied mathematics as I have a strong industry focus. Though I believe I can accmplish this at Stanford with a subplan or potential major change (They do not have Applied Mathematics as a dedicated undergraduate major).</p>
       </div>
-
-      <div class = "card yellow">
-        <h2>Lifestyle</h2>
-        <h3>Vegetarian</h3>
-        <p>I'm vegetarian and have been my whole life. My commitment to vegetarianism derives from my family's, though they have made it clear that the only real focus is to stay away from beef. I don't mind others who eat meat, but I'm always willing to recommend a vegetarian order for somebody.</p>
-      </div>
-      <div class = "card yellow">
-        <h2>Knowledge</h2>
-        <h3>School Courses</h3>
-        <ul>
-          <li>AP Calculus BC: 5</li>
-          <li>AP Physics C: 5</li>
-          <li>AP Computer Science A: 5</li>
-          <li>AP Chemistry: 5</li>
-          <li>AP United States History: 5</li>
-          <li>AP European History: 5</li>
-          <li>AP English Language: 5</li>
-          <li>AP Seminar: 5</li>
-        </ul>
-      </div>
-      <div class = "card yellow">
-        <h2>Lifest3yle</h2>
-        <h3>Vegeta4rian</h3>
-        <p>I'm vegetarian and have been my whole life. My commitment to vegetarianism derives from my family's, though they have made it clear that the only real focus is to stay away from beef. I don't mind others who eat meat, but I'm always willing to recommend a vegetarian order for somebody.</p>
-      </div>
-      <div class = "card yellow">
-        <h2>Lifes5tyle</h2>
-        <h3>Veget6arian</h3>
-        <p>I'm vegetarian and have been my whole life. My commitment to vegetarianism derives from my family's, though they have made it clear that the only real focus is to stay away from beef. I don't mind others who eat meat, but I'm always willing to recommend a vegetarian order for somebody.</p>
-      </div>
     </div>
 
 
-    <script>
-      const numCols = 3;
-      const colHeights = Array(numCols).fill(0);
-      const container = document.getElementById('card-grid');
-      Array.from(container.children).forEach((child, i) => {
-        const col = i % numCols;
-        child.style.order = col;
-        colHeights[col] += child.getBoundingClientRect().height + 20;
-      });
-      container.style.height = Math.max(...colHeights) + 'px';
-    </script>
   </body>
 
 
