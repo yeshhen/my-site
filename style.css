@@ -1,3 +1,55 @@
+* {
+  font-family: 'Inter', sans-serif;
+}
+
+.container {
+  width: 960px;
+  margin: auto;
+}
+.grid {
+  display: flex;
+  gap: 16px;
+  width: 960px;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  flex: 1;
+}
+
+.box {
+  font-size: 16px;
+  color: #ffffff;
+  font-weight: 500;
+  line-height: 1.6;
+  letter-spacing: 0.02em;
+
+  padding: 16px;
+  box-shadow: 4px 4px 0px #000000;
+  /* your existing box styles */
+}
+
+.red {
+  background: #d44b4b
+}
+.orange {
+  background: #d4764b
+}
+.yellow {
+  background: #d2d445
+}
+.green {
+  background: #3eaa47
+}
+.blue {
+  background: #4b59d4
+}
+.purple {
+  background: #964bd4
+}
+
 .gallery {
   columns: 3;
   column-gap: 8px;
@@ -8,39 +60,4 @@
   display: block;
   margin-bottom: 8px;
   break-inside: avoid;
-}
-
-.grid {
-  columns: 3;
-  column-gap: 20px;
-  width: 1000px;
-  margin-right: auto;
-}
-
-.card {
-  box-sizing: border-box;
-  break-inside: avoid;
-  width: 100%;
-  margin: 0 0 20px 0;
-  background-color: #ffffff;
-  border: 2px solid #333;
-  border-radius: 0px;
-  padding: 20px;
-  box-shadow: 4px 4px 0px #333
-}
-
-.yellow {
-  background-color: #fffde7;
-}
-
-.blue {
-  background-color: #e3f2fd;
-}
-
-.orange {
-  background-color: #f0e6d3;
-}
-
-.red {
-  background-color: #f0d3d3;
 }
